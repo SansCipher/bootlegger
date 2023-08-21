@@ -1,7 +1,7 @@
 ﻿[
     {
         "id": "_meta",
-        "name": "The Bootlegger's Anthology - work in progress - v.0.3.4",
+        "name": "The Bootlegger's Anthology - work in progress - v.0.3.5",
         "author": "Icibalus",
         "logo": "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/_meta.png",
         "almanac": "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/almanac.html"
@@ -198,7 +198,7 @@
         "otherNight": 59.5,
         "sao": [
             1,
-            1,
+            2,
             123
         ]
     },
