@@ -1,0 +1,523 @@
+﻿[
+    {
+        "id": "_meta",
+        "name": "The Bootlegger's Anthology Legacy Pack",
+        "author": "Icibalus"
+    },
+    {
+        "id": "scrounger_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/scrounger_the_bootleggers_anthology.png"
+        ],
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Scrounger",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, visit the Storyteller & choose a player: learn a true statement. If they’re evil, it’s false instead.",
+        "jinxes": [
+            {
+                "id": "beachcomber_the_bootleggers_anthology",
+                "reason": "The Beachcomber can learn information the Scrounger can learn."
+            }
+        ]
+    },
+    {
+        "id": "insomniac_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/insomniac_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Show the Insomniac the nearest \"Each night\" character. :reminder:",
+        "reminders": [
+            "Shown"
+        ],
+        "name": "Insomniac",
+        "team": "townsfolk",
+        "ability": "You start knowing the nearest “Each night” character (not the Demon), or that none are in play.",
+        "firstNight": 38.5,
+        "jinxes": [
+            {
+                "id": "amnesiac",
+                "reason": "If the Amnesiac has an “Each night” ability, the Insomniac can learn the Amnesiac."
+            },
+            {
+                "id": "sleepwalker_the_bootleggers_anthology",
+                "reason": "If the Sleepwalker has an “Each night” ability, the Insomniac can learn the Sleepwalker."
+            }
+        ]
+    },
+    {
+        "id": "huntress_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/huntress_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Show the Huntress the nearest Minion character :reminder:, then point to your left or your right to indicate which direction it's closer in.",
+        "reminders": [
+            "Shown"
+        ],
+        "name": "Huntress",
+        "team": "townsfolk",
+        "ability": "You start knowing the nearest Minion character & whether it’s clockwise or anticlockwise from you.",
+        "firstNight": 40.5,
+        "jinxes": [
+            {
+                "id": "vizier",
+                "reason": "If the Huntress learns the Vizier is in play, the Vizier's existence is not announced by the Storyteller."
+            },
+            {
+                "id": "riot",
+                "reason": "Riot registers as a Minion to the Huntress."
+            }
+        ]
+    },
+    {
+        "id": "teacher_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/teacher_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Show the Teacher the nearest *\"Once per game\"* character. :reminder:",
+        "reminders": [
+            "Shown"
+        ],
+        "name": "Teacher",
+        "team": "townsfolk",
+        "ability": "You start knowing the nearest “Once per game” character (not the Demon), or that none are in play.",
+        "firstNight": 39.5,
+        "jinxes": [
+            {
+                "id": "amnesiac",
+                "reason": "If the Amnesiac has a “Once per game” ability, the Teacher can learn the Amnesiac."
+            },
+            {
+                "id": "sleepwalker_the_bootleggers_anthology",
+                "reason": "If the Sleepwalker has a “Once per game” ability, the Teacher can learn the Sleepwalker."
+            }
+        ]
+    },
+    {
+        "id": "taxcollector_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/taxcollector_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Show the Tax Collector two in-play characters, mark them with *\"Shown\"* :reminder:. The Tax Collector holds up a number of fingers: note that number.",
+        "otherNightReminder": "On the night the Tax Collector chose, if they have not nominated one of the characters you showed them, they die. :reminder: Mark them with a shroud and *\"Dies tonight\"*",
+        "reminders": [
+            "Shown",
+            "Shown",
+            "Nominated a target",
+            "Dies tonight"
+        ],
+        "name": "Tax Collector",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 in-play characters, then choose a night*. If you haven't nominated 1 of those characters by that night, you die. ",
+        "firstNight": 34.5,
+        "otherNight": 15.5,
+        "jinxes": [
+            {
+                "id": "lycanthrope",
+                "reason": "If the Lycanthrope is alive and the Tax Collector kills themselves, nobody else can die tonight."
+            }
+        ]
+    },
+    {
+        "id": "vampire_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/vampire_the_bootleggers_anthology.png"
+        ],
+        "otherNightReminder": "If no-one died yesterday, wake the Vampire, and show them 1 out-of-play character for every day they survived. The Vampire dies. :reminder:",
+        "reminders": [
+            "Dies tonight",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "name": "Vampire",
+        "team": "townsfolk",
+        "ability": "Each night*, if no-one died yesterday, you die, then learn 1 out-of-play character for each day you survived.",
+        "otherNight": 15.6,
+        "jinxes": [
+            {
+                "id": "lycanthrope",
+                "reason": "If the Lycanthrope is alive and the Vampire kills themselves in the night, no one else can die tonight."
+            }
+        ]
+    },
+    {
+        "id": "parvenu_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/parvenu_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Wake a Minion. Show them the Parvenu token, then point to the Parvenu. Mark them with *\"Jealous\"* :reminder:",
+        "otherNightReminder": "If the *\"Jealous\"* Minion was not, by your judgement,\"mad\" about the Parvenu being evil yesterday, you may decide to kill them. :reminder:",
+        "reminders": [
+            "Might die tonight",
+            "Jealous"
+        ],
+        "name": "Parvenu",
+        "team": "townsfolk",
+        "ability": "1 Minion starts knowing you. Each night*, if they weren't \"mad\" about you being evil yesterday, they might die.",
+        "firstNight": 10.5,
+        "otherNight": 13.5,
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "Riot registers as a Minion to the Parvenu."
+            },
+            {
+                "id": "marionette",
+                "reason": "If the Marionette is the only Minion, the Parvenu learns this and has no ability."
+            }
+        ]
+    },
+    {
+        "id": "duelist_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/vRlz3bx.png",
+            "https://i.imgur.com/jkHVASD.png"
+        ],
+        "firstNightReminder": "The Demon chooses a player tonight, unlike normal: mark that player with \"Dies in 1 night\". Wake the Fencer. Show them the player marked with the \"Dies in 1 night\" reminder. Replace that reminder at the end of today; that player dies when the Demon chooses.",
+        "otherNightReminder": "Do not kill the player the Demon chooses; instead, mark them with \"Dies in 1 night\". Wake the Fencer. Show them the player marked with the \"Dies in 1 night\" reminder.  Replace that reminder at the end of today; that player dies when the Demon chooses.",
+        "reminders": [
+            "Dies in 1 night"
+        ],
+        "name": "Fencer",
+        "team": "townsfolk",
+        "ability": "The Demon attacks on the 1st night, but its’ victims die 1 night later. Each night, you learn who the Demon chose.",
+        "firstNight": 35.5,
+        "otherNight": 52.3,
+        "jinxes": [
+            {
+                "id": "pukka",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "leviathan",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "riot",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "alhadikhia",
+                "reason": "Al-Hadikhia's choices are announced 1 night later."
+            },
+            {
+                "id": "ketos_the_bootleggers_anthology",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "auwre_the_bootleggers_anthology",
+                "reason": "Au’Wre guesses on the first night, but its guesses go through 1 night later. If they guess correctly, the Duelist learns this, otherwise the Duelist learns nothing."
+            }
+        ]
+    },
+    {
+        "id": "haruspex_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/haruspex_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "The Haruspex shakes their head no or points to a player. If they point to a player, mark them with *\"No ability\"* :reminder:. If they pointed to a Demon, swap that Demon's character with a living Minion's (if able), then inform the swapped players of their new characters.",
+        "otherNightReminder": "The Haruspex shakes their head no or points to a player. If they point to a player, mark them with *\"No ability\"* :reminder:. If they pointed to a Demon, swap that Demon's character with a living Minion's (if able), then inform the swapped players of their new characters.",
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Haruspex",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a player: chosen Demons swap characters with a living Minion (if able).",
+        "firstNight": 24.5,
+        "otherNight": 27.5,
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "Only 1 jinxed character can be in play."
+            }
+        ]
+    },
+    {
+        "id": "inventor_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/inventor_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "If the Inventor has an ability, run that ability.",
+        "otherNightReminder": "If the Inventor has an ability, run that ability.",
+        "reminders": [
+            "?",
+            "?",
+            "?"
+        ],
+        "name": "Inventor",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, privately design your ability: learn a condition. When met, you gain that ability.",
+        "firstNight": 37.3,
+        "otherNight": 53.3
+    },
+    {
+        "id": "clairvoyant_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/clairvoyant_the_bootleggers_anthology.png"
+        ],
+        "reminders": [
+            "Died tonight"
+        ],
+        "name": "Clairvoyant",
+        "team": "townsfolk",
+        "ability": "If you died last night, you may visit the Storyteller today to learn 1 fact about the Demon's bluffs.",
+        "jinxes": [
+            {
+                "id": "leviathan",
+                "reason": "If Leviathan is in play and the Clairvoyant is executed, they may visit the Storyteller tomorrow."
+            },
+            {
+                "id": "riot",
+                "reason": "If Riot nominates and kills the Clairvoyant, they learn this tonight and may visit the Storyteller tomorrow."
+            },
+            {
+                "id": "lilmonsta",
+                "reason": "If Lil' Monsta is in play and the Clairvoyant dies at night, they learn a fact about what the Minions are bluffing as."
+            },
+            {
+                "id": "auwre_the_bootleggers_anthology",
+                "reason": "If Au'Wre guesses the Clairvoyant, they learn this and may visit the Storyteller tomorrow."
+            }
+        ]
+    },
+    {
+        "id": "pilgrim_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/pilgrim_the_bootleggers_anthology.png"
+        ],
+        "name": "Pilgrim",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to learn a Traveller the Storyteller would like to travel in, and a hint as to why."
+    },
+    {
+        "id": "crimewriter_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/crimewriter_the_bootleggers_anthology.png"
+        ],
+        "reminders": [
+            "Has Butler ability"
+        ],
+        "setup": true,
+        "name": "Crime Writer",
+        "team": "townsfolk",
+        "ability": "The Demon also has the Butler’s ability. [-the Butler]"
+    },
+    {
+        "id": "escapeartist_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/escapeartist_the_bootleggers_anthology.png"
+        ],
+        "reminders": [
+            "Escape act today",
+            "Learn demon tonight"
+        ],
+        "name": "Escape Artist",
+        "team": "outsider",
+        "ability": "Once, at dawn, you may declare that if a good player dies today, good loses, but if evil dies, you learn who the Demon is. If you died, you must."
+    },
+    {
+        "id": "windviced_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/windviced_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Pretend to the Wind-Viced they have the Minion ability they think they have. If it is in play, it is an Au'Wre game; do not run Minion info.",
+        "otherNightReminder": "Pretend to the Wind-Viced they have the Minion ability they think they have. ",
+        "remindersGlobal": [
+            "Is the Wind-VIced"
+        ],
+        "setup": true,
+        "name": "Wind-Viced",
+        "team": "outsider",
+        "ability": "You think you are a Minion, but you are not. [The Demon is Au'Wre]",
+        "firstNight": 9.5,
+        "otherNight": 33.5,
+        "jinxes": [
+            {
+                "id": "mathematician",
+                "reason": "The Mathematician learns if Au'Wre guessed the Wind-Viced."
+            }
+        ],
+        "special": [
+            {
+                "name": "bag-disabled",
+                "type": "selection"
+            }
+        ]
+    },
+    {
+        "id": "turncoat_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/turncoat_the_bootleggers_anthology.png"
+        ],
+        "otherNightReminder": "If the Turncoat was more \"mad\" than anyone else about wanting to execute the player who is the Demon, wake them up and show them the \"You are:\" card, then give them a thumbs down. Show them the \"Your Demon is:\" card, then point to the Demon.",
+        "reminders": [
+            "Most Mad"
+        ],
+        "name": "Turncoat",
+        "team": "outsider",
+        "ability": "If you are the most “mad” about wanting to execute the Demon player, you become evil tonight & learn who the Demon is.",
+        "otherNight": 1.4,
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "If the Turncoat is the most mad that a Riot player should be nominated and killed, and they do not die that day, the Turncoat turns evil that night."
+            }
+        ]
+    },
+    {
+        "id": "sallow_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/sallow_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "Show each of the in-play Good characters in no particular order to the Sallow. They indicate one of those on their character sheet; mark them with a *\"Might misregister\"* reminder. :reminder:",
+        "otherNightReminder": "If a player with a \"Might misregister\" reminder :reminder: died tonight or yesterday, wake the Sallow. They indicate a good character on their character sheet: mark them with a \"Might misregister\" reminder.",
+        "reminders": [
+            "Might misregister"
+        ],
+        "name": "Sallow",
+        "team": "minion",
+        "ability": "You start knowing which opposing characters are in-play. Then, choose 1 of them: they might register falsely. If they die, choose again.",
+        "firstNight": 26.5,
+        "otherNight": 14.5,
+        "jinxes": [
+            {
+                "id": "heretic",
+                "reason": "The Heretic registers as an out-of-play Good character to the Sallow. They know which. If the Sallow picks this character, the Heretic misregisters instead."
+            }
+        ]
+    },
+    {
+        "id": "spectre_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/spectre_the_bootleggers_anthology.png"
+        ],
+        "otherNightReminder": "The Spectre points to 2 Townsfolk or Outsiders on their character sheet. Mark a chosen in-play character with *\"Clouded\"* reminder :reminder:",
+        "reminders": [
+            "Clouded",
+            "Clouded"
+        ],
+        "name": "Spectre",
+        "team": "minion",
+        "ability": "Each night*, choose up to 2 good characters: you & the Demon register falsely to those abilities (if in play).",
+        "otherNight": 8.6
+    },
+    {
+        "id": "vessel_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/vessel_the_bootleggers_anthology.png"
+        ],
+        "name": "Vessel",
+        "team": "minion",
+        "ability": "1 Demon is marked on the script with 🕱. If the Demon dies & 5 or more non-Travelers live, become the marked Demon.",
+        "jinxes": [
+            {
+                "id": "scarletwoman",
+                "reason": "If the Demon dies and both the Vessel and Scarlet Woman are alive, they wake together and choose which of them becomes the Demon."
+            },
+            {
+                "id": "imp",
+                "reason": "If the Imp chooses themselves and dies, the Vessel does not become the Demon."
+            },
+            {
+                "id": "fanggu",
+                "reason": "If the Fang Gu chooses an Outsider and dies, the Vessel does not become the Demon."
+            },
+            {
+                "id": "lilmonsta",
+                "reason": "If the Lil' Monsta is marked and the Demon dies, the Vessel begins babysitting Lil' Monsta and loses their ability."
+            },
+            {
+                "id": "riot",
+                "reason": "If the Vessel becomes Riot, all evil players become Riot. If this happens after Day 3, the game continues for 1 more day."
+            },
+            {
+                "id": "alhadikhia",
+                "reason": "If the Vessel Al-Hadikhia resurrects the original Demon, they become a Vessel again."
+            },
+            {
+                "id": "zombuul",
+                "reason": "The Vessel only becomes the marked Demon when the Zombuul truly dies."
+            },
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Plague Doctor dies, a living Minion gains the Vessel ability in addition to their own ability, and learns this."
+            }
+        ]
+    },
+    {
+        "id": "windnymph_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/windnymph_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "If another player chooses the Wind Nymph with their ability at night, all negative effects of that ability are removed, and that player swaps characters with the Wind Nymph: show each their new characters. :reminder:",
+        "otherNightReminder": "If another player chooses the Wind Nymph with their ability at night, all negative effects of that ability are removed, and that player swaps characters with the Wind Nymph: show each their new characters. :reminder:",
+        "reminders": [
+            "Used tonight"
+        ],
+        "setup": true,
+        "name": "Wind Nymph",
+        "team": "minion",
+        "ability": "You are safe from evil abilities. The 1st evil player to choose you with their ability each night swaps characters with you. [+1 Outsider] ",
+        "firstNight": 20.1,
+        "otherNight": 17.1,
+        "jinxes": [
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Plague Doctor dies, a living Minion gains the Wind Nymph ability in addition to their own ability, and learns this."
+            }
+        ]
+    },
+    {
+        "id": "trizkidek_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/trizkidek_the_bootleggers_anthology.png"
+        ],
+        "firstNightReminder": "If the Trizkidek added an Outsider during setup, mark them with *\"added Outsider\"* :reminder:",
+        "otherNightReminder": "The Trizkidek chooses either 1 or 3 players (3 if they removed an Outsider, 1 if they added 1). Mark one of the players they chose with *\"Poisoned until dusk\"* :reminder:: they are poisoned. Then, mark one of the players they chose with *\"Dies\"* :reminder:: they die",
+        "reminders": [
+            "Poisoned until dusk",
+            "Dead",
+            "Added Outsider"
+        ],
+        "setup": true,
+        "name": "Trizkidek",
+        "team": "demon",
+        "ability": "Each night*, choose 3 players: 1 is poisoned until dusk & 1 dies. If you added an Outsider, choose 1 instead. [-1 or +1 Outsider]",
+        "firstNight": 1.1,
+        "otherNight": 29.3
+    },
+    {
+        "id": "unseelie_the_bootleggers_anthology",
+        "image": [
+            "https://www.bloodstar.xyz/p/Elluna/The_Bootleggers_Anthology/unseelie_the_bootleggers_anthology.png"
+        ],
+        "otherNightReminder": "The Unseelie chooses a player :reminder:: mark that player with *\"Dies\"*, and a shroud: they are dead. If it was an Outsider, mark them with *\"Secretly Dead\"* :reminder: instead; they are dead, and any abilities that trigger based on death trigger, but they are not announced as dead until they're executed.",
+        "reminders": [
+            "Dead",
+            "Secretly Dead",
+            "Secretly Dead",
+            "Secretly Dead",
+            "Secretly Dead",
+            "Secretly Dead"
+        ],
+        "setup": true,
+        "name": "Unseelie",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Outsiders you kill register as and think they’re alive until executed. [+1 Outsider]",
+        "otherNight": 29.5,
+        "jinxes": [
+            {
+                "id": "mastermind",
+                "reason": "If Unseelie is executed while the Mastermind is in play, Outsiders they've killed continue registering as and thinking they are alive."
+            },
+            {
+                "id": "escapeartist_the_bootleggers_anthology",
+                "reason": "If the Unseelie kills the Escape Artist and causes them to misregister, they only have to use their ability when they learn they died."
+            }
+        ]
+    }
+]
