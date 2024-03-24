@@ -1,7 +1,7 @@
 [
     {
         "id": "_meta",
-        "name": "The Bootlegger's Anthology - v.1.0.0",
+        "name": "The Bootlegger's Anthology - v.1.0.1",
         "author": "Icibalus"
     },
     {
@@ -21,6 +21,10 @@
             {
                 "id": "riot",
                 "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "summoner",
+                "reason": "The Archivist receives arbitrary information until the Summoner creates a Demon"
             }
         ]
     },
@@ -53,7 +57,7 @@
         "team": "demon",
         "ability": "Each night*, guess your Minions: learn which are correct. If all are, good learns this, and must kill evil today or lose. [Evil don’t learn each other]",
         "firstNight": 9.5,
-        "otherNight": 28.7,
+        "otherNight": 29.7,
         "jinxes": [
             {
                 "id": "ravenkeeper",
@@ -158,6 +162,10 @@
             {
                 "id": "esper_the_bootleggers_anthology",
                 "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "summoner",
+                "reason": "If the Summoner creates an Au’wre, the Storyteller chooses who they are."
             }
         ]
     },
@@ -214,7 +222,7 @@
         "team": "demon",
         "ability": "Each night*, choose a player: they die. [+0 or +1 Outsiders, Minions choose who you are.]",
         "firstNight": 11.5,
-        "otherNight": 29.1,
+        "otherNight": 30.1,
         "special": [
             {
                 "name": "bag-disabled",
@@ -280,7 +288,7 @@
         "name": "Cryptid",
         "team": "minion",
         "ability": "You only know part of your ability. 1 good player knows the rest of it.",
-        "firstNight": 18.5,
+        "firstNight": 19.5,
         "otherNight": 17.5
     },
     {
@@ -322,8 +330,8 @@
         "name": "Esper",
         "team": "minion",
         "ability": "Each night (even when dead), you see the Grimoire, then choose 1 character, 1 reminder & 1 player: the Demon is shown all 3. ",
-        "firstNight": 35.3,
-        "otherNight": 28.3,
+        "firstNight": 36.3,
+        "otherNight": 29.3,
         "special": [
             {
                 "name": "grimoire",
@@ -355,6 +363,10 @@
             {
                 "id": "plaguedoctor",
                 "reason": "If the Plague Doctor dies, a living Minion gains the Esper ability in addition to their own ability, and learns this."
+            },
+            {
+                "id": "summoner",
+                "reason": "Until the 3rd night, the Esper's information is sent to the Summoner."
             }
         ]
     },
@@ -395,8 +407,8 @@
         "name": "Falconer",
         "team": "townsfolk",
         "ability": "On your 1st night, choose a character. 1-4 nights later, learn who that character is (or that it's not in play, then choose another.",
-        "firstNight": 39.4,
-        "otherNight": 62.4
+        "firstNight": 40.4,
+        "otherNight": 63.4
     },
     {
         "id": "fencer_the_bootleggers_anthology",
@@ -412,8 +424,8 @@
         "name": "Fencer",
         "team": "townsfolk",
         "ability": "The Demon attacks on the 1st night, but its’ victims die 1 night later. Each night, you learn who the Demon chose.",
-        "firstNight": 35.5,
-        "otherNight": 52.3,
+        "firstNight": 36.5,
+        "otherNight": 53.3,
         "jinxes": [
             {
                 "id": "pukka",
@@ -430,6 +442,10 @@
             {
                 "id": "alhadikhia",
                 "reason": "Al-Hadikhia's choices are announced 1 night later."
+            },
+            {
+                "id": "summoner",
+                "reason": "Only 1 jinxed character can be in play."
             }
         ]
     },
@@ -447,7 +463,7 @@
         "name": "Firebrand",
         "team": "townsfolk",
         "ability": "If you nominate & execute the first person executed, that night (even if dead), choose a player: learn their character.",
-        "otherNight": 62.2,
+        "otherNight": 63.2,
         "jinxes": [
             {
                 "id": "riot",
@@ -483,7 +499,7 @@
         "name": "Huli Jing",
         "team": "minion",
         "ability": "You start knowing 5 out-of-play characters. Each night, choose 1 of them: until dusk, gain its’ ability & you might register as it would.",
-        "firstNight": 26.5,
+        "firstNight": 27.5,
         "otherNight": 6.5,
         "jinxes": [
             {
@@ -519,7 +535,7 @@
             "https://i.imgur.com/ql4roVo.png"
         ],
         "firstNightReminder": "Wake the Inysyns and show them a number: note that number. On the night before that day, mark the Inysnys with \"Judgement Day\": if they would lose today, they win instead.",
-        "otherNightReminder": "The Insyns points to a player: that player dies.",
+        "otherNightReminder": "The Inysyns points to a player: that player dies.",
         "reminders": [
             "1",
             "2",
@@ -532,8 +548,8 @@
         "name": "Inysyns",
         "team": "demon",
         "ability": "You start knowing a day. On that day (from dawn to dusk) if good would win, evil wins instead. Each night*, choose a player: they die.",
-        "firstNight": 39.7,
-        "otherNight": 29.5,
+        "firstNight": 40.7,
+        "otherNight": 30.5,
         "jinxes": [
             {
                 "id": "witch",
@@ -568,7 +584,7 @@
         "name": "Ketos",
         "team": "demon",
         "ability": "After the 6th day, everyone else dies. Each night*, guess a player & a good character: if right, the end comes one day sooner.",
-        "otherNight": 29.7,
+        "otherNight": 30.7,
         "jinxes": [
             {
                 "id": "ravenkeeper",
@@ -667,8 +683,8 @@
         "name": "Local Hero",
         "team": "townsfolk",
         "ability": "You start knowing an in-play opposing character. If an evil ability kills you, that character dies too.",
-        "firstNight": 35.5,
-        "otherNight": 52.7,
+        "firstNight": 36.5,
+        "otherNight": 53.7,
         "jinxes": [
             {
                 "id": "leviathan",
@@ -695,7 +711,7 @@
         "name": "Miasma",
         "team": "minion",
         "ability": "Once per game, at night, choose that all Townsfolk are poisoned & get false information until dusk.",
-        "firstNight": 22.5,
+        "firstNight": 23.5,
         "otherNight": 12.5,
         "jinxes": [
             {
@@ -719,8 +735,8 @@
         "name": "Mouldwarp",
         "team": "minion",
         "ability": "On your 1st night, become an out-of-play Demon with this ability. Demons only wake to kill every other night (even if dead).",
-        "firstNight": 15.5,
-        "otherNight": 28.5,
+        "firstNight": 16.5,
+        "otherNight": 29.5,
         "jinxes": [
             {
                 "id": "engineer",
@@ -765,7 +781,7 @@
         "team": "demon",
         "ability": "Only you know what your ability is. Once per game, the Archivist may publicly guess it: if right, you die. [+the Archivist]",
         "firstNight": 1.5,
-        "otherNight": 29.9,
+        "otherNight": 30.9,
         "jinxes": [
             {
                 "id": "pithag",
@@ -774,6 +790,10 @@
             {
                 "id": "hatter",
                 "reason": "If the Hatter dies & the Demon becomes an Obscrul, an Archivist is created (if not in play)."
+            },
+            {
+                "id": "summoner",
+                "reason": "If the Summoner creates an Obscrul, an Archivist is also created (if not in play)."
             }
         ]
     },
@@ -809,7 +829,7 @@
         "name": "Penitent",
         "team": "outsider",
         "ability": "If you died today or tonight, the Demon may change their ability to \"Each night*, choose 2 players: they die.\"",
-        "otherNight": 51.5,
+        "otherNight": 52.5,
         "jinxes": [
             {
                 "id": "lilmonsta",
@@ -818,6 +838,10 @@
             {
                 "id": "legion",
                 "reason": "If the Penitent dies & Legion is in play, nothing happens."
+            },
+            {
+                "id": "summoner",
+                "reason": "If the Penitent is dead when the Summoner creates a Demon, they may choose that the Demon's ability is 'Each night*, choose 2 players: they die.'"
             }
         ]
     },
@@ -913,7 +937,7 @@
         "name": "Sleepwalker",
         "team": "outsider",
         "ability": "You think you’re a Townsfolk, but you have a different ability with the same choices. 1 good player knows you’re in play.",
-        "firstNight": 39.3,
+        "firstNight": 40.3,
         "special": [
             {
                 "name": "bag-disabled",
@@ -942,7 +966,7 @@
         "name": "Spice Trader",
         "team": "townsfolk",
         "ability": "Each night*, learn how many evil players voted today. If you would learn a 0, you become drunk.",
-        "otherNight": 62.6,
+        "otherNight": 63.6,
         "jinxes": [
             {
                 "id": "organgrinder",
@@ -964,7 +988,7 @@
         "name": "Steeplejack",
         "team": "townsfolk",
         "ability": "If you die at night, you are woken to choose 2 \"You start knowing\" characters & get their info.",
-        "otherNight": 61.5,
+        "otherNight": 62.5,
         "jinxes": [
             {
                 "id": "leviathan",
@@ -997,7 +1021,7 @@
         "name": "Surgeon",
         "team": "townsfolk",
         "ability": "Twice per game, at night*, you may choose a living player: they live if they would die, and vice versa. The Demon cannot die this way.",
-        "otherNight": 27.5
+        "otherNight": 28.5
     },
     {
         "id": "tactician_the_bootleggers_anthology",
@@ -1009,7 +1033,7 @@
         "name": "Tactician",
         "team": "townsfolk",
         "ability": "Each night*, choose 2 living players: learn which one the Storyteller thinks it’d be better for the Demon to kill tonight.",
-        "otherNight": 62.8,
+        "otherNight": 63.8,
         "jinxes": [
             {
                 "id": "leviathan",
@@ -1036,7 +1060,7 @@
         "name": "Terminus",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. On the final day, the nominee with the least votes is executed instead.",
-        "otherNight": 29.3,
+        "otherNight": 30.3,
         "jinxes": [
             {
                 "id": "organgrinder",
@@ -1062,7 +1086,7 @@
         "name": "Visionary",
         "team": "minion",
         "ability": "You & a good player start knowing a question. Once per game, publicly answer it: if correct, your team wins.",
-        "firstNight": 34.5,
+        "firstNight": 35.5,
         "jinxes": [
             {
                 "id": "spy",
@@ -1125,7 +1149,7 @@
         "name": "Weaver",
         "team": "townsfolk",
         "ability": "You start knowing 2 players: 1 of them learned something true about the other tonight.",
-        "firstNight": 62.5,
+        "firstNight": 63.5,
         "jinxes": [
             {
                 "id": "chambermaid",

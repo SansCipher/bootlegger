@@ -1,7 +1,7 @@
 ﻿[
     {
         "id": "_meta",
-        "name": "The Bootlegger's Anthology Legacy Pack",
+        "name": "The Bootlegger's Anthology Legacy Pack v.1.0.1",
         "author": "Icibalus"
     },
     {
@@ -34,7 +34,7 @@
         "name": "Insomniac",
         "team": "townsfolk",
         "ability": "You start knowing the nearest “Each night” character (not the Demon), or that none are in play.",
-        "firstNight": 38.5,
+        "firstNight": 39.5,
         "jinxes": [
             {
                 "id": "amnesiac",
@@ -58,7 +58,7 @@
         "name": "Huntress",
         "team": "townsfolk",
         "ability": "You start knowing the nearest Minion character & whether it’s clockwise or anticlockwise from you.",
-        "firstNight": 40.5,
+        "firstNight": 41.5,
         "jinxes": [
             {
                 "id": "vizier",
@@ -82,7 +82,7 @@
         "name": "Teacher",
         "team": "townsfolk",
         "ability": "You start knowing the nearest “Once per game” character (not the Demon), or that none are in play.",
-        "firstNight": 39.5,
+        "firstNight": 40.5,
         "jinxes": [
             {
                 "id": "amnesiac",
@@ -110,7 +110,7 @@
         "name": "Tax Collector",
         "team": "townsfolk",
         "ability": "You start knowing 2 in-play characters, then choose a night*. If you haven't nominated 1 of those characters by that night, you die. ",
-        "firstNight": 34.5,
+        "firstNight": 35.5,
         "otherNight": 15.5,
         "jinxes": [
             {
@@ -185,8 +185,8 @@
         "name": "Fencer",
         "team": "townsfolk",
         "ability": "The Demon attacks on the 1st night, but its’ victims die 1 night later. Each night, you learn who the Demon chose.",
-        "firstNight": 35.5,
-        "otherNight": 52.3,
+        "firstNight": 36.5,
+        "otherNight": 53.3,
         "jinxes": [
             {
                 "id": "pukka",
@@ -211,6 +211,10 @@
             {
                 "id": "auwre_the_bootleggers_anthology",
                 "reason": "Au’Wre guesses on the first night, but its guesses go through 1 night later. If they guess correctly, the Duelist learns this, otherwise the Duelist learns nothing."
+            },
+            {
+                "id": "summoner",
+                "reason": "Only 1 jinxed character can be in play."
             }
         ]
     },
@@ -227,8 +231,8 @@
         "name": "Haruspex",
         "team": "townsfolk",
         "ability": "Once per game, at night, choose a player: chosen Demons swap characters with a living Minion (if able).",
-        "firstNight": 24.5,
-        "otherNight": 27.5,
+        "firstNight": 26.5,
+        "otherNight": 28.5,
         "jinxes": [
             {
                 "id": "riot",
@@ -251,8 +255,8 @@
         "name": "Inventor",
         "team": "townsfolk",
         "ability": "Once per game, during the day, privately design your ability: learn a condition. When met, you gain that ability.",
-        "firstNight": 37.3,
-        "otherNight": 53.3
+        "firstNight": 38.3,
+        "otherNight": 54.3
     },
     {
         "id": "clairvoyant_the_bootleggers_anthology",
@@ -281,6 +285,10 @@
             {
                 "id": "auwre_the_bootleggers_anthology",
                 "reason": "If Au'Wre guesses the Clairvoyant, they learn this and may visit the Storyteller tomorrow."
+            },
+            {
+                "id": "summoner",
+                "reason": "If the Summoner is in play, Clairvoyant learns about the Summoner's bluffs instead."
             }
         ]
     },
@@ -334,11 +342,15 @@
         "team": "outsider",
         "ability": "You think you are a Minion, but you are not. [The Demon is Au'Wre]",
         "firstNight": 9.5,
-        "otherNight": 33.5,
+        "otherNight": 34.5,
         "jinxes": [
             {
                 "id": "mathematician",
                 "reason": "The Mathematician learns if Au'Wre guessed the Wind-Viced."
+            },
+            {
+                "id": "summoner",
+                "reason": "Only 1 jinxed character can be in play."
             }
         ],
         "special": [
@@ -365,6 +377,10 @@
             {
                 "id": "riot",
                 "reason": "If the Turncoat is the most mad that a Riot player should be nominated and killed, and they do not die that day, the Turncoat turns evil that night."
+            },
+            {
+                "id": "summoner",
+                "reason": "If there is no Demon and the Turncoat is the most mad that a Summoner player should be executed, the Turncoat turns evil that night and learns the Summoner player."
             }
         ]
     },
@@ -381,7 +397,7 @@
         "name": "Sallow",
         "team": "minion",
         "ability": "You start knowing which opposing characters are in-play. Then, choose 1 of them: they might register falsely. If they die, choose again.",
-        "firstNight": 26.5,
+        "firstNight": 27.5,
         "otherNight": 14.5,
         "jinxes": [
             {
@@ -462,7 +478,7 @@
         "name": "Wind Nymph",
         "team": "minion",
         "ability": "You are safe from evil abilities. The 1st evil player to choose you with their ability each night swaps characters with you. [+1 Outsider] ",
-        "firstNight": 20.1,
+        "firstNight": 21.1,
         "otherNight": 17.1,
         "jinxes": [
             {
@@ -488,7 +504,7 @@
         "team": "demon",
         "ability": "Each night*, choose 3 players: 1 is poisoned until dusk & 1 dies. If you added an Outsider, choose 1 instead. [-1 or +1 Outsider]",
         "firstNight": 1.1,
-        "otherNight": 29.3
+        "otherNight": 30.3
     },
     {
         "id": "unseelie_the_bootleggers_anthology",
@@ -508,7 +524,7 @@
         "name": "Unseelie",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. Outsiders you kill register as and think they’re alive until executed. [+1 Outsider]",
-        "otherNight": 29.5,
+        "otherNight": 30.5,
         "jinxes": [
             {
                 "id": "mastermind",
