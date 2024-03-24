@@ -283,7 +283,8 @@
         "firstNightReminder": "Show the Cryptid part of their ability. Show the good player marked as \"Knows\" the other part of the ability. If appropriate, run the custom ability.",
         "otherNightReminder": "Run the custom ability of the Cryptid.",
         "reminders": [
-            "???"
+            "???",
+            "Knows"
         ],
         "name": "Cryptid",
         "team": "minion",
