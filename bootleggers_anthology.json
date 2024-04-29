@@ -1,7 +1,7 @@
 [
     {
         "id": "_meta",
-        "name": "The Bootlegger's Anthology - v.1.0.1",
+        "name": "The Bootlegger's Anthology - v.1.0.2",
         "author": "Icibalus"
     },
     {
@@ -166,6 +166,10 @@
             {
                 "id": "summoner",
                 "reason": "If the Summoner creates an Au’wre, the Storyteller chooses who they are."
+            },
+            {
+                "id": "banshee",
+                "reason": "If Au’Wre guesses the Banshee, the Banshee dies & all players learn this."
             }
         ]
     },
@@ -202,7 +206,7 @@
         "otherNightReminder": "If the Nominator reminder is placed, inform the Cardinal of their new alignment: the opposite of the person who nominated them.",
         "name": "Cardinal",
         "team": "outsider",
-        "ability": "If nominated, tonight, you become the allignment opposite to whoever nominated you.",
+        "ability": "If nominated, tonight, you become the alignment opposite to whoever nominated you.",
         "otherNight": 1.7
     },
     {
@@ -409,7 +413,7 @@
         "team": "townsfolk",
         "ability": "On your 1st night, choose a character. 1-4 nights later, learn who that character is (or that it's not in play, then choose another.",
         "firstNight": 40.4,
-        "otherNight": 63.4
+        "otherNight": 64.4
     },
     {
         "id": "fencer_the_bootleggers_anthology",
@@ -426,7 +430,7 @@
         "team": "townsfolk",
         "ability": "The Demon attacks on the 1st night, but its’ victims die 1 night later. Each night, you learn who the Demon chose.",
         "firstNight": 36.5,
-        "otherNight": 53.3,
+        "otherNight": 54.3,
         "jinxes": [
             {
                 "id": "pukka",
@@ -464,7 +468,7 @@
         "name": "Firebrand",
         "team": "townsfolk",
         "ability": "If you nominate & execute the first person executed, that night (even if dead), choose a player: learn their character.",
-        "otherNight": 63.2,
+        "otherNight": 64.2,
         "jinxes": [
             {
                 "id": "riot",
@@ -666,6 +670,10 @@
             {
                 "id": "eviltwin",
                 "reason": "Ketos learns who the Good Twin is and can not guess their character."
+            },
+            {
+                "id": "banshee",
+                "reason": "If Ketos guesses the Banshee, the Banshee dies & all players learn this. Ketos can not guess a revealed Banshee's character."
             }
         ]
     },
@@ -685,7 +693,7 @@
         "team": "townsfolk",
         "ability": "You start knowing an in-play opposing character. If an evil ability kills you, that character dies too.",
         "firstNight": 36.5,
-        "otherNight": 53.7,
+        "otherNight": 54.7,
         "jinxes": [
             {
                 "id": "leviathan",
@@ -967,7 +975,7 @@
         "name": "Spice Trader",
         "team": "townsfolk",
         "ability": "Each night*, learn how many evil players voted today. If you would learn a 0, you become drunk.",
-        "otherNight": 63.6,
+        "otherNight": 64.6,
         "jinxes": [
             {
                 "id": "organgrinder",
@@ -989,7 +997,7 @@
         "name": "Steeplejack",
         "team": "townsfolk",
         "ability": "If you die at night, you are woken to choose 2 \"You start knowing\" characters & get their info.",
-        "otherNight": 62.5,
+        "otherNight": 63.5,
         "jinxes": [
             {
                 "id": "leviathan",
@@ -1034,7 +1042,7 @@
         "name": "Tactician",
         "team": "townsfolk",
         "ability": "Each night*, choose 2 living players: learn which one the Storyteller thinks it’d be better for the Demon to kill tonight.",
-        "otherNight": 63.8,
+        "otherNight": 64.8,
         "jinxes": [
             {
                 "id": "leviathan",
