@@ -1,7 +1,7 @@
 [
     {
         "id": "_meta",
-        "name": "The Bootlegger's Anthology - v.1.0.2",
+        "name": "The Bootlegger's Anthology - v.1.0.1",
         "author": "Icibalus"
     },
     {
@@ -105,7 +105,7 @@
             },
             {
                 "id": "fencer_the_bootleggers_anthology",
-                "reason": "Au’Wre guesses on the first night, but its guesses go through 1 night later. If they guess correctly, the Duelist learns this, otherwise the Duelist learns nothing."
+                "reason": "Au’Wre guesses on the first night, but its guesses go through 1 night later. If they guess correctly, the Fencer learns this, otherwise the Fencer learns nothing."
             },
             {
                 "id": "marionette",
@@ -206,8 +206,14 @@
         "otherNightReminder": "If the Nominator reminder is placed, inform the Cardinal of their new alignment: the opposite of the person who nominated them.",
         "name": "Cardinal",
         "team": "outsider",
-        "ability": "If nominated, tonight, you become the alignment opposite to whoever nominated you.",
-        "otherNight": 1.7
+        "ability": "If nominated, tonight (even if dead), you become the alignment opposite to whoever nominated you.",
+        "otherNight": 1.7,
+        "jinxes": [
+            {
+                "id": "pithag",
+                "reason": "If the Pit-Hag turns an evil player into the Cardinal, they can't turn good due to their own ability."
+            }
+        ]
     },
     {
         "id": "cawthane_the_bootleggers_anthology",
@@ -315,6 +321,10 @@
             {
                 "id": "riot",
                 "reason": "The Deserter becomes the alignment of the first player to nominate while dead."
+            },
+            {
+                "id": "pithag",
+                "reason": "If the Pit-Hag turns an evil player into the Deserter, they can't turn good due to their own ability."
             }
         ]
     },
@@ -347,7 +357,7 @@
         "jinxes": [
             {
                 "id": "damsel",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "If the Esper is (or has been) in play, the Damsel is poisoned."
             },
             {
                 "id": "heretic",
@@ -979,7 +989,7 @@
         "jinxes": [
             {
                 "id": "organgrinder",
-                "reason": "f players eyes were closed during nominations, the Spice Trader learns which player received the most evil votes & how many they received."
+                "reason": "If players' eyes were closed during nominations, the Spice Trader learns which player received the most evil votes & how many they received."
             },
             {
                 "id": "riot",
